@@ -1,15 +1,25 @@
 public class Employee {
+  private int id;
+  private String firstName;
+  
+  public Employee() {
+    this.id = 1;
+    this.firstName = "Juan"
+  }
 
-private int employeeId;
+  public void setId(int id) {
+  this.id = id;
+  }
 
-public Employee(){
-this.employeeId = 1;
-}
-
-public void setEmployeeId(int employeeId){
-this.employeeId = employeeId;
-}
-
-public int getEmployeeId(){
-return this.employeeId;
+  public int getId() {
+    return this.id;
+  }
+  
+  public void setFirstname(String firstName){
+    this.firstName = firstName;
+  }
+  
+  public int getFirstName(){
+    return firstName;
+  }
 }
