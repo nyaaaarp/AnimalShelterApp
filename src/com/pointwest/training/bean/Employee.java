@@ -1,26 +1,26 @@
 public class Employee {
 
-	private int employeeId;
-	private String name;
+  private int id;
+  private String firstName;
+  
+  public Employee() {
+    this.id = 1;
+    this.firstName = "Juan"
+  }
 
-	public Employee() {
-		this.employeeId = 1;
-		this.name = "Andres Bonifacio";
-	}
+  public void setId(int id) {
+  this.id = id;
+  }
 
-	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
-	}
-
-	public int getEmployeeId() {
-		return this.employeeId;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getName() {
-		return this.name;
-	}
+  public int getId() {
+    return this.id;
+  }
+  
+  public void setFirstname(String firstName){
+    this.firstName = firstName;
+  }
+  
+  public int getFirstName(){
+    return firstName;
+  }
 }
