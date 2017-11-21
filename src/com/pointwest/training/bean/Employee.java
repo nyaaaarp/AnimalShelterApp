@@ -1,24 +1,26 @@
 public class Employee {
 
-private int employeeId;
-private String name;
-public Employee(){
-this.employeeId = 1;
-this.name = "Andres Bonifacio";
-}
+	private int employeeId;
+	private String name;
 
-public void setEmployeeId(int employeeId){
-this.employeeId = employeeId;
-}
+	public Employee() {
+		this.employeeId = 1;
+		this.name = "Andres Bonifacio";
+	}
 
-public int getEmployeeId(){
-return this.employeeId;
-}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
 
-public void setName(String name){
-this.name = name;
-}
+	public int getEmployeeId() {
+		return this.employeeId;
+	}
 
-public int getName(){
-return this.name;
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getName() {
+		return this.name;
+	}
 }
